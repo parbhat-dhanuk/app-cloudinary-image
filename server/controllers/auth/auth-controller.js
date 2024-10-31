@@ -64,7 +64,7 @@ const loginUser = async (req, res) => {
         email: checkUser.email,
         userName: checkUser.userName,
       },
-      "CLIENT_SECRET_KEY",
+      "parbhat",
       { expiresIn: "60m" }
     );
 
