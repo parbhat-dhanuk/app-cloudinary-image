@@ -2,8 +2,8 @@ const paypal = require("paypal-rest-sdk");
 
 // paypal.configure({
 //   mode: "",
-//   client_id: "AdKvU9MLP45LHKlJ0q9t2G6H5C5nZvoyH7JKGSNR-bZcpP6cBbqNUowtmVtpZesUuztNGRX0-0PYqsOC",
-//   client_secret: "EGRtuBEK_HQHjljOwtdk5mir1HcrnFv9vveUzRYJUQJGpRlDP6JDDAhd20ZGcX-ilMBUBzPSJ0iV9AfV",
+//   client_id: process.env.PAYPAL_CLIENT_ID,
+//   client_secret: process.env.PAYPAL_CLIENT_SECRET,
 // });
 
 module.exports = paypal;
